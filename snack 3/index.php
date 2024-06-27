@@ -45,16 +45,10 @@ $posts = [
 
 
 
-
+var_dump($posts);
 
 
 ?>
-
-
-
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -64,6 +58,19 @@ $posts = [
     <title>Document</title>
 </head>
 <body>
+
+
+
+    <div>
+        
+        <?php foreach($posts as $post => $element){ ?>
+
+            <p><?php   echo $post[0];  ?></p>
+
+        <?php }?>
+
+
+    </div>
     
 </body>
 </html>

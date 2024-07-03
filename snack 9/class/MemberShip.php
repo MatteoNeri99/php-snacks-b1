@@ -15,3 +15,6 @@ class MemberShip extends PremiunmUser{
         
     }
 }
+
+
+$primoMembership= new MemberShip("firenze");

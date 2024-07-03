@@ -1,6 +1,7 @@
 <?php 
 
 require_once __DIR__ . "./Utente.php";
+require_once __DIR__ . "./Membership.php";
 
 class PremiunmUser extends Utente{
 
@@ -23,3 +24,7 @@ class PremiunmUser extends Utente{
     }
 
 }
+
+
+$primoUtente= new PremiunmUser($primoMembership);
+

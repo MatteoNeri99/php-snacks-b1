@@ -17,10 +17,13 @@ class Utente{
 
     }
 
-    public function setPassword($password){
+    protected function setPassword($password){
 
         $this->name=$password;
 
     }
 
 }
+
+
+$primoUtente= new Utente ("carlo", "password");
